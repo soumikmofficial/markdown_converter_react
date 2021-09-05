@@ -19,9 +19,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 100vh;
   width: 100%;
   padding: 0 8rem;
@@ -29,31 +26,64 @@ html {
 }
 
 .container section {
-  height: 80%;
+  height: 100%;
   font-size: 2rem;
+  padding: 2rem;
 }
 
-.container section h2 {
+.container section .heading {
   margin-bottom: 2rem;
 }
 
 .container .markdown {
   width: 50%;
-  padding: 3rem 3rem;
 }
 
 .container .markdown .textarea {
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem;
   width: 100%;
-  height: 100%;
+  height: 80%;
   outline: none;
   border: none;
   -webkit-box-shadow: 0.1rem 0.2rem 0.8rem #b8b2b2;
           box-shadow: 0.1rem 0.2rem 0.8rem #b8b2b2;
+  border-radius: 0.5rem;
+  line-height: 3rem;
 }
 
 .container .results {
   width: 50%;
-  padding: 4rem 4rem;
+  height: 100%;
+}
+
+.container .results .results-box {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  background-color: #f7f2f2;
+  height: 80%;
+  border-radius: 0.5rem;
+  overflow-y: scroll;
+  line-height: 5rem;
+}
+
+.container .results .results-box code {
+  background: #6b6b6b;
+  color: #f8f0ec;
+  padding: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container .results .results-box img {
+  width: 20rem;
+}
+
+.container .results .results-box blockquote {
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  border-left: 0.5rem solid #3d6366;
 }
 /*# sourceMappingURL=App.css.map */
