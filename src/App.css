@@ -26,8 +26,8 @@ html {
 }
 
 .container section {
-  height: 100%;
   font-size: 2rem;
+  height: 100%;
   padding: 2rem;
 }
 
@@ -40,30 +40,30 @@ html {
 }
 
 .container .markdown .textarea {
-  padding: 1.5rem;
-  width: 100%;
-  height: 80%;
-  outline: none;
+  border-radius: 0.5rem;
   border: none;
   -webkit-box-shadow: 0.1rem 0.2rem 0.8rem #b8b2b2;
           box-shadow: 0.1rem 0.2rem 0.8rem #b8b2b2;
-  border-radius: 0.5rem;
+  height: 80%;
   line-height: 3rem;
+  outline: none;
+  padding: 1.5rem;
+  width: 100%;
 }
 
 .container .results {
-  width: 50%;
   height: 100%;
+  width: 50%;
 }
 
 .container .results .results-box {
-  padding: 1.5rem;
-  font-size: 1.6rem;
   background-color: #f7f2f2;
-  height: 80%;
   border-radius: 0.5rem;
-  overflow-y: scroll;
+  font-size: 1.6rem;
+  height: 80%;
   line-height: 5rem;
+  overflow-y: scroll;
+  padding: 1.5rem;
 }
 
 .container .results .results-box code {
@@ -80,10 +80,10 @@ html {
 }
 
 .container .results .results-box blockquote {
-  font-style: italic;
+  border-left: 0.5rem solid #3d6366;
   font-size: 1.8rem;
+  font-style: italic;
   font-weight: 500;
   padding: 0 1rem;
-  border-left: 0.5rem solid #3d6366;
 }
 /*# sourceMappingURL=App.css.map */
